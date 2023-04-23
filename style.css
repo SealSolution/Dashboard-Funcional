@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card {
+    width: 65vw;
+    height: 25vw;
+    background: rgb(233, 231, 231);
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 16.5%;
+    box-shadow: 20px 20px 10px;
+}
+
+.card2{
+    width: 65vw;
+    height: 25vw;
+    background: rgb(233, 231, 231);
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 16.5%;
+    box-shadow: 20px 20px 10px;
+}
+   
+   
