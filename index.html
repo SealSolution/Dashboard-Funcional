@@ -49,6 +49,7 @@
                 datasets: [{
                     label: 'Umidade',
                     type: 'line',
+                    fill: false,
                     borderColor: ['#45b3e7'],
                     backgroundColor: ['#89cff0']
                 }]
@@ -90,8 +91,10 @@
                 datasets: [{
                     label: "Temperatura",
                     type: 'line',
-                    borderColor: ['#ff3232'],
-                    backgroundColor: ['#ff7f7f']
+                    fill: false,
+                    backgroundColor: ['#ff7f7f'],
+                    borderColor: '#ff3232',
+                    tension: 0.1
                 }]
             },
             options: {
@@ -105,7 +108,7 @@
                     yAxes: [{
                         scaleLabel: {
                             display: true,
-                            labelString: 'Luminosidade'
+                            labelString: 'Graus (c°)'
                         },
                         ticks: {
                             beginAtZero: true
