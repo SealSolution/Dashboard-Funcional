@@ -6,10 +6,11 @@
 }
 
 body {
+
     font-family: 'Bebas Neue', cursive;
     width: 100vw;
     height: 100vh;
-    background: url('https://digital.agrishow.com.br/sites/agrishow.com/files/Como%20realizar%20o%20correto%20transporte%20e%20armazenamento%20de%20tomates.png');
+    background: url('./tomatinho.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,7 +27,6 @@ canvas {
     min-height: 100%;
     background-color: rgba(255, 255,  255, 0.100);
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     display: flex;
     flex-direction: column;
     gap: 30px;
